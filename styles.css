@@ -10,6 +10,7 @@
   color: black;
   background-color: beige;
   text-align: center;
+  font-size: 50px;
   margin: 50px 0 100px 0;
 }
 .links {
@@ -25,6 +26,7 @@
 .links:hover {
   color: rgb(145, 107, 107);
   font-size: 30px;
+  transition: all 0.35s;
 }
 .body li,
 p {
@@ -35,8 +37,26 @@ p {
 h2,
 h3 {
   color: rgb(146, 64, 64);
+  background-color: antiquewhite;
+  padding-left: 16px;
 }
 .ingredients-list,
 .steps-list {
-  margin-left: 20px;
+  margin: 8px 0 8px 24px;
+}
+.description {
+  padding-left: 16px;
+  margin: 8px 0;
+}
+.home {
+  color: white;
+  font-size: 24px;
+  margin-left: 8px;
+}
+.image {
+  padding-left: 100px;
+}
+.image-box {
+  background-color: #1f1f1f;
+  margin: 10px 0 10px 0;
 }
